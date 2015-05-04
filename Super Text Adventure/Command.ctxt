@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getSecondWord()
+comment0.text=\r\n\ @return\ The\ second\ word\ of\ this\ command.\ Returns\ null\ if\ there\ was\ no\r\n\ second\ word.\r\n
+comment1.params=
+comment1.target=boolean\ isUnknown()
+comment1.text=\r\n\ @return\ true\ if\ this\ command\ was\ not\ understood.\r\n
+comment2.params=
+comment2.target=boolean\ hasSecondWord()
+comment2.text=\r\n\ @return\ true\ if\ the\ command\ has\ a\ second\ word.\r\n
+numComments=3
