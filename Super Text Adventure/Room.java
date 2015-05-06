@@ -1,4 +1,4 @@
-import java.util.Set;
+    import java.util.Set;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -19,6 +19,7 @@ import java.util.Iterator;
 public class Room 
 {
     private String description;
+    private String dDescription;
     private HashMap<String, Room> exits;        // stores exits of this room.
 
     /**
@@ -27,9 +28,10 @@ public class Room
      * "an open court yard".
      * @param description The room's description.
      */
-    public Room(String description) 
+    public Room(String description, String dDescription) 
     {
         this.description = description;
+        this.dDescription = dDescription;
         exits = new HashMap<String, Room>();
     }
 
@@ -62,7 +64,10 @@ public class Room
     {
         return "You are " + description + ".\n" + getExitString();
     }
-
+    public String getDDescription()
+    {
+        return dDescription;
+    }
     /**
      * Return a string describing the room's exits, for example
      * "Exits: north west".

@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=description
-comment0.target=Room(java.lang.String)
+comment0.params=description\ dDescription
+comment0.target=Room(java.lang.String,\ java.lang.String)
 comment0.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\ @param\ description\ The\ room's\ description.\r\n
 comment1.params=direction\ neighbor
 comment1.target=void\ setExit(java.lang.String,\ Room)
@@ -12,9 +12,11 @@ comment3.params=
 comment3.target=java.lang.String\ getLongDescription()
 comment3.text=\r\n\ Return\ a\ description\ of\ the\ room\ in\ the\ form\:\r\n\ \ \ \ \ You\ are\ in\ the\ kitchen.\r\n\ \ \ \ \ Exits\:\ north\ west\r\n\ @return\ A\ long\ description\ of\ this\ room\r\n
 comment4.params=
-comment4.target=java.lang.String\ getExitString()
-comment4.text=\r\n\ Return\ a\ string\ describing\ the\ room's\ exits,\ for\ example\r\n\ "Exits\:\ north\ west".\r\n\ @return\ Details\ of\ the\ room's\ exits.\r\n
-comment5.params=direction
-comment5.target=Room\ getExit(java.lang.String)
-comment5.text=\r\n\ Return\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\r\n\ "direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\r\n\ @param\ direction\ The\ exit's\ direction.\r\n\ @return\ The\ room\ in\ the\ given\ direction.\r\n
-numComments=6
+comment4.target=java.lang.String\ getDDescription()
+comment5.params=
+comment5.target=java.lang.String\ getExitString()
+comment5.text=\r\n\ Return\ a\ string\ describing\ the\ room's\ exits,\ for\ example\r\n\ "Exits\:\ north\ west".\r\n\ @return\ Details\ of\ the\ room's\ exits.\r\n
+comment6.params=direction
+comment6.target=Room\ getExit(java.lang.String)
+comment6.text=\r\n\ Return\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\r\n\ "direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\r\n\ @param\ direction\ The\ exit's\ direction.\r\n\ @return\ The\ room\ in\ the\ given\ direction.\r\n
+numComments=7
